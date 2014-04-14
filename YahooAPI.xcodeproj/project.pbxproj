@@ -22,6 +22,14 @@
 		CC21845118F68EEF00B77ACF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC21843018F68EEE00B77ACF /* UIKit.framework */; };
 		CC21845918F68EEF00B77ACF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC21845718F68EEF00B77ACF /* InfoPlist.strings */; };
 		CC21845B18F68EEF00B77ACF /* YahooAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21845A18F68EEF00B77ACF /* YahooAPITests.m */; };
+		CC21847C18F69B0700B77ACF /* PooWeatherInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21847B18F69B0700B77ACF /* PooWeatherInfoTableViewCell.m */; };
+		CC21847F18F6A28F00B77ACF /* PooWeatherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21847E18F6A28F00B77ACF /* PooWeatherInfoViewController.m */; };
+		CC4E51DB18F788780040DF84 /* PooCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E51DA18F788780040DF84 /* PooCityModel.m */; };
+		CC4E51DE18F788EA0040DF84 /* PooWeatherForecastDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E51DD18F788EA0040DF84 /* PooWeatherForecastDataFetcher.m */; };
+		CC4E51EC18FB7AFD0040DF84 /* PooGeoPointCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E51EB18FB7AFD0040DF84 /* PooGeoPointCompass.m */; };
+		CC4E51EF18FB7B670040DF84 /* PooCompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E51EE18FB7B670040DF84 /* PooCompassViewController.m */; };
+		CC4E51F118FB7C2E0040DF84 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4E51F018FB7C2E0040DF84 /* arrow.png */; };
+		CC4E51F418FB7CA10040DF84 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E51F318FB7CA10040DF84 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,21 @@
 		CC21845618F68EEF00B77ACF /* YahooAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooAPITests-Info.plist"; sourceTree = "<group>"; };
 		CC21845818F68EEF00B77ACF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC21845A18F68EEF00B77ACF /* YahooAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooAPITests.m; sourceTree = "<group>"; };
+		CC21847A18F69B0700B77ACF /* PooWeatherInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooWeatherInfoTableViewCell.h; sourceTree = "<group>"; };
+		CC21847B18F69B0700B77ACF /* PooWeatherInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooWeatherInfoTableViewCell.m; sourceTree = "<group>"; };
+		CC21847D18F6A28F00B77ACF /* PooWeatherInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooWeatherInfoViewController.h; sourceTree = "<group>"; };
+		CC21847E18F6A28F00B77ACF /* PooWeatherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooWeatherInfoViewController.m; sourceTree = "<group>"; };
+		CC4E51D918F788780040DF84 /* PooCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooCityModel.h; sourceTree = "<group>"; };
+		CC4E51DA18F788780040DF84 /* PooCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooCityModel.m; sourceTree = "<group>"; };
+		CC4E51DC18F788EA0040DF84 /* PooWeatherForecastDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooWeatherForecastDataFetcher.h; sourceTree = "<group>"; };
+		CC4E51DD18F788EA0040DF84 /* PooWeatherForecastDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooWeatherForecastDataFetcher.m; sourceTree = "<group>"; };
+		CC4E51EA18FB7AFD0040DF84 /* PooGeoPointCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooGeoPointCompass.h; sourceTree = "<group>"; };
+		CC4E51EB18FB7AFD0040DF84 /* PooGeoPointCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooGeoPointCompass.m; sourceTree = "<group>"; };
+		CC4E51ED18FB7B670040DF84 /* PooCompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooCompassViewController.h; sourceTree = "<group>"; };
+		CC4E51EE18FB7B670040DF84 /* PooCompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooCompassViewController.m; sourceTree = "<group>"; };
+		CC4E51F018FB7C2E0040DF84 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		CC4E51F218FB7CA10040DF84 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CC4E51F318FB7CA10040DF84 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +137,21 @@
 		CC21843218F68EEE00B77ACF /* YahooAPI */ = {
 			isa = PBXGroup;
 			children = (
+				CC4E51EA18FB7AFD0040DF84 /* PooGeoPointCompass.h */,
+				CC4E51EB18FB7AFD0040DF84 /* PooGeoPointCompass.m */,
+				CC4E51ED18FB7B670040DF84 /* PooCompassViewController.h */,
+				CC4E51EE18FB7B670040DF84 /* PooCompassViewController.m */,
+				CC4E51F218FB7CA10040DF84 /* MBProgressHUD.h */,
+				CC4E51F318FB7CA10040DF84 /* MBProgressHUD.m */,
+				CC4E51F018FB7C2E0040DF84 /* arrow.png */,
+				CC4E51DC18F788EA0040DF84 /* PooWeatherForecastDataFetcher.h */,
+				CC4E51DD18F788EA0040DF84 /* PooWeatherForecastDataFetcher.m */,
+				CC4E51D918F788780040DF84 /* PooCityModel.h */,
+				CC4E51DA18F788780040DF84 /* PooCityModel.m */,
+				CC21847A18F69B0700B77ACF /* PooWeatherInfoTableViewCell.h */,
+				CC21847B18F69B0700B77ACF /* PooWeatherInfoTableViewCell.m */,
+				CC21847D18F6A28F00B77ACF /* PooWeatherInfoViewController.h */,
+				CC21847E18F6A28F00B77ACF /* PooWeatherInfoViewController.m */,
 				CC21843B18F68EEF00B77ACF /* PooAppDelegate.h */,
 				CC21843C18F68EEF00B77ACF /* PooAppDelegate.m */,
 				CC21843E18F68EEF00B77ACF /* Main_iPhone.storyboard */,
@@ -235,6 +273,7 @@
 				CC21844318F68EEF00B77ACF /* Main_iPad.storyboard in Resources */,
 				CC21844818F68EEF00B77ACF /* Images.xcassets in Resources */,
 				CC21844018F68EEF00B77ACF /* Main_iPhone.storyboard in Resources */,
+				CC4E51F118FB7C2E0040DF84 /* arrow.png in Resources */,
 				CC21843718F68EEF00B77ACF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +294,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC21843918F68EEF00B77ACF /* main.m in Sources */,
+				CC4E51DE18F788EA0040DF84 /* PooWeatherForecastDataFetcher.m in Sources */,
 				CC21843D18F68EEF00B77ACF /* PooAppDelegate.m in Sources */,
 				CC21844618F68EEF00B77ACF /* PooViewController.m in Sources */,
+				CC21847F18F6A28F00B77ACF /* PooWeatherInfoViewController.m in Sources */,
+				CC21847C18F69B0700B77ACF /* PooWeatherInfoTableViewCell.m in Sources */,
+				CC4E51EF18FB7B670040DF84 /* PooCompassViewController.m in Sources */,
+				CC4E51F418FB7CA10040DF84 /* MBProgressHUD.m in Sources */,
+				CC4E51DB18F788780040DF84 /* PooCityModel.m in Sources */,
+				CC4E51EC18FB7AFD0040DF84 /* PooGeoPointCompass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +517,7 @@
 				CC21846018F68EEF00B77ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC21846118F68EEF00B77ACF /* Build configuration list for PBXNativeTarget "YahooAPITests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +526,7 @@
 				CC21846318F68EEF00B77ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

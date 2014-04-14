@@ -9,10 +9,16 @@
 #import "PooAppDelegate.h"
 
 @implementation PooAppDelegate
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.viewController = [[PooViewController alloc] init];
+    UINavigationController *viewController = [[UINavigationController alloc] initWithRootViewController:[[PooViewController alloc] init]];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
@@ -41,6 +47,27 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - MBProgressHUD
+
+- (void)showHUDActivityIndicator:(NSString *)message
+{
+    // Start Activity Indicator
+    if (self.hudActivityIndicator == nil) {
+        // Set an offset to allow interaction over teh navigation bar.
+        self.hudActivityIndicator = [MBProgressHUD showHUDAddedTo:self.window.rootViewController.view animated:YES];
+        [_hudActivityIndicator setLabelText:message];
+    }
+}
+
+
+- (void)hideHUDActivityIndicator
+{
+    if (self.hudActivityIndicator) {
+        [MBProgressHUD hideHUDForView:self.window.rootViewController.view animated:YES];
+        self.hudActivityIndicator = nil;
+    }
 }
 
 @end
